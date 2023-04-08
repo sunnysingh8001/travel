@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: cover;
+}
+img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+}
+.container{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    font-size: 50px;
+}
+.container p{
+    font-size: 22px;
+    text-align: center;
+}
+.submsg{
+    color: green;
+}
+input, textarea{
+    width: 70%;
+    margin: 6px 0px;
+    padding: 12px;
+    font-size: 18px;
+    outline: none;
+    border: 2.5px solid black;
+    border-radius: 15px;
+}
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    font-size: 23px;
+    padding: 5px 12px;
+    border-radius: 12px;
+    border: 2.5px solid rgb(3, 3, 60);
+}
